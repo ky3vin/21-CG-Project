@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1faaefb18128a7740be3d7d5c056fea6
+  - enabled: 1
+    path: Assets/Scenes/Abyss.unity
+    guid: 4f03860279d20e84a926a597ce070789
+  - enabled: 1
+    path: Assets/Scenes/CharacterMenu.unity
+    guid: 7ee6ae03b6f138b418d6d1abe633df07
+  - enabled: 1
+    path: Assets/Scenes/SpaceScene.unity.unity
+    guid: 48e5c0dda5e7c924eab1ad80b7e67818
+  - enabled: 1
+    path: Assets/Scenes/ForestScene.unity
+    guid: d7124d4b57594ec4cb73d14fc470f6e3
   m_configObjects: {}

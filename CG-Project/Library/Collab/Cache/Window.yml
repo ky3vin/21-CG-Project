@@ -1,0 +1,1874 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Creature_Slider_Mutant.meta
+    - Assets/Creature_Slider_Mutant/Animations.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(1).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(1).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(2).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(2).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(3).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(3).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(4).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Attack(4).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Dead(1).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Dead(1).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Dead(2).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Dead(2).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Get_Hit(1).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Get_Hit(1).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Get_Hit(2).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Get_Hit(2).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(1).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(1).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(2).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(2).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(3).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(3).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(4).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(4).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(5).FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Idle(5).FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Run.FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Run.FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Run_Mec.FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Run_Mec.FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Walk.FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Walk.FBX.meta
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Walk_Mec.FBX
+    - Assets/Creature_Slider_Mutant/Animations/Slider_Mutant@Walk_Mec.FBX.meta
+    - Assets/Creature_Slider_Mutant/Materials.meta
+    - Assets/Creature_Slider_Mutant/Materials/Slider_Mutant.mat
+    - Assets/Creature_Slider_Mutant/Materials/Slider_Mutant.mat.meta
+    - Assets/Creature_Slider_Mutant/Mesh.meta
+    - Assets/Creature_Slider_Mutant/Mesh/Mesh.FBX
+    - Assets/Creature_Slider_Mutant/Mesh/Mesh.FBX.meta
+    - Assets/Creature_Slider_Mutant/Prefab.meta
+    - Assets/Creature_Slider_Mutant/Prefab/Slider_Mutant.prefab
+    - Assets/Creature_Slider_Mutant/Prefab/Slider_Mutant.prefab.meta
+    - Assets/Creature_Slider_Mutant/Scene.meta
+    - Assets/Creature_Slider_Mutant/Scene/Demo.unity
+    - Assets/Creature_Slider_Mutant/Scene/Demo.unity.meta
+    - Assets/Creature_Slider_Mutant/Slider_Mutant.controller
+    - Assets/Creature_Slider_Mutant/Slider_Mutant.controller.meta
+    - Assets/Creature_Slider_Mutant/Textures.meta
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Albedo.tga
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Albedo.tga.meta
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Normals.tga
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Normals.tga.meta
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Specular.tga
+    - Assets/Creature_Slider_Mutant/Textures/Slider_Mutant_Specular.tga.meta
+    - Assets/ForestAssets.meta
+    - Assets/ForestAssets/Animations.meta
+    - Assets/ForestAssets/Animations/Timmy@Breathing Idle.fbx
+    - Assets/ForestAssets/Animations/Timmy@Breathing Idle.fbx.meta
+    - Assets/ForestAssets/Animations/Timmy@Jumping.fbx
+    - Assets/ForestAssets/Animations/Timmy@Jumping.fbx.meta
+    - Assets/ForestAssets/Animations/Timmy@Standard Walk.fbx
+    - Assets/ForestAssets/Animations/Timmy@Standard Walk.fbx.meta
+    - Assets/ForestAssets/Fox.meta
+    - Assets/ForestAssets/New Terrain 1.asset
+    - Assets/ForestAssets/New Terrain 1.asset.meta
+    - Assets/ForestAssets/New Terrain 2.asset
+    - Assets/ForestAssets/New Terrain 2.asset.meta
+    - Assets/ForestAssets/New Terrain 3.asset
+    - Assets/ForestAssets/New Terrain 3.asset.meta
+    - Assets/ForestAssets/New Terrain.asset
+    - Assets/ForestAssets/New Terrain.asset.meta
+    - Assets/ForestAssets/Scenes.meta
+    - Assets/ForestAssets/Scripts.meta
+    - Assets/ForestAssets/Store.meta
+    - Assets/ForestAssets/Store/Character.meta
+    - Assets/ForestAssets/Store/Character/Timmy.fbx
+    - Assets/ForestAssets/Store/Character/Timmy.fbx.meta
+    - Assets/ForestAssets/Store/Fox.meta
+    - Assets/ForestAssets/Store/Fox/Animations.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_ Animator_Controller.controller
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_ Animator_Controller.controller.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Attack_Paws.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Attack_Paws.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Attack_Tail.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Attack_Tail.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Falling.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Falling.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Falling_Left.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Falling_Left.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Idle.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Idle.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump_InAir.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump_InAir.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump_Pivot_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Jump_Pivot_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Left.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Left.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Left_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Left_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Right.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Right.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Right_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Run_Right_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit1.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit1.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit2_Idle.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit2_Idle.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit3_StandUp.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit3_StandUp.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_Idle_Break.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_Idle_Break.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_No.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_No.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_Yes.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Sit_Yes.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Somersault.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Somersault.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Somersault_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Somersault_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Back.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Back.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Back_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Back_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Left.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Left.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Left_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Left_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Right.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Right.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Right_InPlace.fbx
+    - Assets/ForestAssets/Store/Fox/Animations/Fox_Walk_Right_InPlace.fbx.meta
+    - Assets/ForestAssets/Store/Fox/FBXs.meta
+    - Assets/ForestAssets/Store/Fox/FBXs/Fox.fbx
+    - Assets/ForestAssets/Store/Fox/FBXs/Fox.fbx.meta
+    - Assets/ForestAssets/Store/Fox/Materials.meta
+    - Assets/ForestAssets/Store/Fox/Materials/M_Fox.mat
+    - Assets/ForestAssets/Store/Fox/Materials/M_Fox.mat.meta
+    - Assets/ForestAssets/Store/Fox/Prefabs.meta
+    - Assets/ForestAssets/Store/Fox/Prefabs/Fox.prefab
+    - Assets/ForestAssets/Store/Fox/Prefabs/Fox.prefab.meta
+    - Assets/ForestAssets/Store/Fox/Scenes.meta
+    - Assets/ForestAssets/Store/Fox/Scenes/Fox_Scene.unity
+    - Assets/ForestAssets/Store/Fox/Scenes/Fox_Scene.unity.meta
+    - Assets/ForestAssets/Store/Fox/Textures.meta
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_AO.png
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_AO.png.meta
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_BC.png
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_BC.png.meta
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_Normal.png
+    - Assets/ForestAssets/Store/Fox/Textures/T_Fox_Normal.png.meta
+    - Assets/ForestAssets/Store/HolyShift.meta
+    - Assets/ForestAssets/Store/HolyShift/Materials.meta
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyBase.mat
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyBase.mat.meta
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyDark.mat
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyDark.mat.meta
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyWater.mat
+    - Assets/ForestAssets/Store/HolyShift/Materials/LowPolyWater.mat.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes/GroundRollingStone.fbx
+    - Assets/ForestAssets/Store/HolyShift/Meshes/GroundRollingStone.fbx.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Materials.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Materials/Rock.018.mat
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Materials/Rock.018.mat.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Materials/snow.003.mat
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Materials/snow.003.mat.meta
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Mountain1.fbx
+    - Assets/ForestAssets/Store/HolyShift/Meshes/Mountain1.fbx.meta
+    - Assets/ForestAssets/Store/HolyShift/Prefabs.meta
+    - Assets/ForestAssets/Store/HolyShift/Prefabs/Water.prefab
+    - Assets/ForestAssets/Store/HolyShift/Prefabs/Water.prefab.meta
+    - Assets/ForestAssets/Store/HolyShift/Scenes.meta
+    - Assets/ForestAssets/Store/HolyShift/Scenes/WaterSampleScene.unity
+    - Assets/ForestAssets/Store/HolyShift/Scenes/WaterSampleScene.unity.meta
+    - Assets/ForestAssets/Store/HolyShift/Scenes/WaterSampleSceneSettings.lighting
+    - Assets/ForestAssets/Store/HolyShift/Scenes/WaterSampleSceneSettings.lighting.meta
+    - Assets/ForestAssets/Store/HolyShift/Scripts.meta
+    - Assets/ForestAssets/Store/HolyShift/Scripts/CheckForStandardAssets.cs
+    - Assets/ForestAssets/Store/HolyShift/Scripts/CheckForStandardAssets.cs.meta
+    - Assets/ForestAssets/Store/HolyShift/Shaders.meta
+    - Assets/ForestAssets/Store/HolyShift/Shaders/FXWaterLowpoly.shader
+    - Assets/ForestAssets/Store/HolyShift/Shaders/FXWaterLowpoly.shader.meta
+    - Assets/ForestAssets/Store/HolyShift/Shaders/WaterInclude.cginc
+    - Assets/ForestAssets/Store/HolyShift/Shaders/WaterInclude.cginc.meta
+    - Assets/ForestAssets/Store/HolyShift/Textures.meta
+    - Assets/ForestAssets/Store/HolyShift/Textures/Distortion.png
+    - Assets/ForestAssets/Store/HolyShift/Textures/Distortion.png.meta
+    - Assets/ForestAssets/Store/HolyShift/Textures/LowPolyBase.png
+    - Assets/ForestAssets/Store/HolyShift/Textures/LowPolyBase.png.meta
+    - Assets/ForestAssets/Store/HolyShift/readme.txt
+    - Assets/ForestAssets/Store/HolyShift/readme.txt.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Idles.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01
+      [RM].fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01
+      [RM].fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01
+      [RM].fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01
+      [RM].fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01
+      [RM].fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01
+      [RM].fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Basic Motions - Scene.unity
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Basic Motions - Scene.unity.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Materials.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Materials/BasicMotionsFloor.mat
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Materials/BasicMotionsFloor.mat.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Materials/BasicMotionsMaterial.mat
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Materials/BasicMotionsMaterial.mat.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Models.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Prefabs.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Prefabs/BasicMotionsDummy.prefab
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Prefabs/BasicMotionsDummy.prefab.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Textures.meta
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Textures/BasicMotionsTexture.png
+    - Assets/ForestAssets/Store/Kevin Iglesias/Basic Motions/Textures/BasicMotionsTexture.png.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 1.unity
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 1.unity.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 2.unity
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 2.unity.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 3.unity
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Demo 3.unity.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 1.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 1/CameraTimeline
+      Scene 1.playable
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 1/CameraTimeline
+      Scene 1.playable.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 1/PPS Demo 1.asset
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 1/PPS Demo 1.asset.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 2.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline
+      Scene 2.playable
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline
+      Scene 2.playable.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 2/PPS Demo 2.asset.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 3.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 3/CameraTimeline
+      Demo 3.playable
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 3/CameraTimeline
+      Demo 3.playable.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 3/PPS Demo 3.asset
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Scene 3/PPS Demo 3.asset.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Skybox.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Demo/Skybox.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Bush_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Environment_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Environment_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Grass_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Grass_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Grass_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Grass_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Log_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.10.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.10.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.11.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.11.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.14.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.14.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.15.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.15.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.3.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.3.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.4.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.4.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.5.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.5.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.6.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.6.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.7.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.7.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.8.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.8.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.9.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Brown.9.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.3.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.3.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.4.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Gray.4.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.10.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.10.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.11.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.11.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.12.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.12.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.13.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.13.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.3.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.3.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.4.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.4.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.5.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.5.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.6.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.6.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.7.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.7.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.8.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.8.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.9.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Green.9.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.3.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Orange.3.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Pink.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Pink.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Purple.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Purple.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Purple.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Purple.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.1.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.1.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.2.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.4.mat
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Materials/Yellow.4.mat.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Mounting_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_4.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_4.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_5.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_5.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_6.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_6.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_7.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Plant_7.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_4.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_4.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_5.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_5.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_6.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Rock_6.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Stone_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Stone_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Terrain_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Terrain_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Terrain_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Terrain_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_1.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_1.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_2.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_2.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_3.fbx
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/FBX/Tree_3.fbx.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Bush_3.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Environment_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Environment_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Grass_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Grass_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Grass_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Grass_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Log_3.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Mounting_3.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_3.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_4.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_4.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_5.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_5.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_6.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_6.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_7.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Plant_7.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_3.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_4.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_4.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_5.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_5.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_6.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Rock_6.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Stone_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Stone_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Terrain_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Terrain_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Terrain_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Terrain_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_1.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_1.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_2.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_2.prefab.meta
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_3.prefab
+    - Assets/ForestAssets/Store/LowPoly Environment Pack/Prefabs/Tree_3.prefab.meta
+    - Assets/ForestAssets/Store/Materials.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_1001_Diffuse.mat
+    - Assets/ForestAssets/Store/Materials/Ch09_1001_Diffuse.mat.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Diffuse.png
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Diffuse.png.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Glossiness.png
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Glossiness.png.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Normal.png
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Normal.png.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Specular.png
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Ch09_1001_Specular.png.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Diffuse.mat
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Diffuse.mat.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Glossiness.mat
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Glossiness.mat.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Normal.mat
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Normal.mat.meta
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Specular.mat
+    - Assets/ForestAssets/Store/Materials/Ch09_nonPBR@Breathing Idle.fbm/Materials/Ch09_1001_Specular.mat.meta
+    - Assets/ForestAssets/Store/Post Box.meta
+    - Assets/ForestAssets/Store/Post Box/Materials.meta
+    - Assets/ForestAssets/Store/Post Box/Materials/box.mat
+    - Assets/ForestAssets/Store/Post Box/Materials/box.mat.meta
+    - Assets/ForestAssets/Store/Post Box/Materials/convert.mat
+    - Assets/ForestAssets/Store/Post Box/Materials/convert.mat.meta
+    - Assets/ForestAssets/Store/Post Box/Materials/door.mat
+    - Assets/ForestAssets/Store/Post Box/Materials/door.mat.meta
+    - Assets/ForestAssets/Store/Post Box/Materials/flag.mat
+    - Assets/ForestAssets/Store/Post Box/Materials/flag.mat.meta
+    - Assets/ForestAssets/Store/Post Box/Materials/wood.mat
+    - Assets/ForestAssets/Store/Post Box/Materials/wood.mat.meta
+    - Assets/ForestAssets/Store/Post Box/Textures.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/box flag uv template.jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/box flag uv template.jpg.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/convert uv template.jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/convert uv template.jpg.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/door uv template.jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/door uv template.jpg.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/post box uv template.jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/Uv Templates/post box uv template.jpg.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/post box.jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/post box.jpg.meta
+    - Assets/ForestAssets/Store/Post Box/Textures/red metal .jpg
+    - Assets/ForestAssets/Store/Post Box/Textures/red metal .jpg.meta
+    - Assets/ForestAssets/Store/Post Box/post box.FBX
+    - Assets/ForestAssets/Store/Post Box/post box.FBX.meta
+    - Assets/ForestAssets/Store/Post Box/scene1.unity
+    - Assets/ForestAssets/Store/Post Box/scene1.unity.meta
+    - Assets/ForestAssets/Store/Post Box/scene1Settings.lighting
+    - Assets/ForestAssets/Store/Post Box/scene1Settings.lighting.meta
+    - Assets/ForestAssets/Store/RPGPP_LT.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_sky_a.mat
+    - Assets/ForestAssets/Store/RPGPP_LT/Materials/rpgpp_lt_sky_a.mat.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_bush_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_bush_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_bush_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_bush_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_03.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_flower_03.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_mountain_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_mountain_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_plant_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_plant_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_03.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_03.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_path_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_path_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_path_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_path_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_sand_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_sand_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bucket_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_bucket_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_jug_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_jug_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_sack_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_sack_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_well_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_well_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01a.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01a.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_04.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_04.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx
+    - Assets/ForestAssets/Store/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_mountain_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_mountain_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_03.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_03.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Grass.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Plants.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_pine_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_pine_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_barrel_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_barrel_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bathtub_wood_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bathtub_wood_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bowl_metal_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bowl_metal_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_box_wood_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_box_wood_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bucket_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bucket_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_jug_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_jug_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_package_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_package_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_trough_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_trough_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Benches.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Chairs.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Hangers.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Tables.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_broom_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_broom_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_rake_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_rake_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_bird_house_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_bird_house_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_wagon_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_wagon_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_well_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_well_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Banners.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Shields.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wood.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wood/rpgpp_lt_log_wood_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Props/Wood/rpgpp_lt_log_wood_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_05.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_05.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts/Wood_path.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab
+    - Assets/ForestAssets/Store/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Scene.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+    - Assets/ForestAssets/Store/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting
+    - Assets/ForestAssets/Store/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Textures.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga
+    - Assets/ForestAssets/Store/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga.meta
+    - Assets/ForestAssets/Store/RPGPP_LT/Textures/rpgpp_lt_tex_a.tga
+    - Assets/ForestAssets/Store/RPGPP_LT/Textures/rpgpp_lt_tex_a.tga.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/NaturePackLite_Texture_01.mat
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/NaturePackLite_Texture_01.mat.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+    - Assets/ForestAssets/Store/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Branch_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Branch_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Bush_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Bush_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Bush_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Bush_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Grass_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Grass_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Grass_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Grass_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_03.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Ground_03.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Mushroom_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Mushroom_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Mushroom_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Mushroom_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_03.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_03.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_04.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Rock_04.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Stump_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Stump_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_01.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_01.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_02.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_02.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_03.fbx
+    - Assets/ForestAssets/Store/SimpleNaturePack/Models/Tree_03.fbx.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Branch_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Branch_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Bush_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Bush_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Bush_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Bush_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Grass_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Grass_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Grass_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Grass_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_03.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Ground_03.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Mushroom_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Mushroom_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_03.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_03.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_04.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Rock_04.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Stump_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Stump_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_01.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_01.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_02.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_02.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_03.prefab
+    - Assets/ForestAssets/Store/SimpleNaturePack/Prefabs/Tree_03.prefab.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Scenes.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+    - Assets/ForestAssets/Store/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity
+    - Assets/ForestAssets/Store/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage
+    - Assets/ForestAssets/Store/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Textures.meta
+    - Assets/ForestAssets/Store/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+    - Assets/ForestAssets/Store/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta
+    - Assets/ForestAssets/Store/Tiger.meta
+    - Assets/ForestAssets/Store/Tiger/Hit.fbx
+    - Assets/ForestAssets/Store/Tiger/Hit.fbx.meta
+    - Assets/ForestAssets/Store/Tiger/Materials.meta
+    - Assets/ForestAssets/Store/Tiger/Materials/Eyes_outer.mat
+    - Assets/ForestAssets/Store/Tiger/Materials/Eyes_outer.mat.meta
+    - Assets/ForestAssets/Store/Tiger/Materials/NormalMap.png
+    - Assets/ForestAssets/Store/Tiger/Materials/NormalMap.png.meta
+    - Assets/ForestAssets/Store/Tiger/Materials/texture.mat
+    - Assets/ForestAssets/Store/Tiger/Materials/texture.mat.meta
+    - Assets/ForestAssets/Store/Tiger/Materials/texture.png
+    - Assets/ForestAssets/Store/Tiger/Materials/texture.png.meta
+    - Assets/ForestAssets/Store/Tiger/Tiger.unity
+    - Assets/ForestAssets/Store/Tiger/Tiger.unity.meta
+    - Assets/ForestAssets/Store/Tiger/TigerSettings.lighting
+    - Assets/ForestAssets/Store/Tiger/TigerSettings.lighting.meta
+    - Assets/ForestAssets/Store/Tiger/Walk.fbx
+    - Assets/ForestAssets/Store/Tiger/Walk.fbx.meta
+    - Assets/ForestAssets/Store/Tiger/run.fbx
+    - Assets/ForestAssets/Store/Tiger/run.fbx.meta
+    - Assets/ForestAssets/Store/Tiger/sound.fbx
+    - Assets/ForestAssets/Store/Tiger/sound.fbx.meta
+    - Assets/ForestAssets/Store/Tiger/tiger.controller
+    - Assets/ForestAssets/Store/Tiger/tiger.controller.meta
+    - Assets/ForestAssets/Store/Tiger/tiger_idle.fbx
+    - Assets/ForestAssets/Store/Tiger/tiger_idle.fbx.meta
+    - Assets/ForestAssets/Terrain.obj
+    - Assets/ForestAssets/Terrain.obj.meta
+    - Assets/ForestAssets/TimmyAnimation.controller
+    - Assets/ForestAssets/TimmyAnimation.controller.meta
+    - Assets/ForestAssets/untitled.fbx
+    - Assets/ForestAssets/untitled.fbx.meta
+    - Assets/Material.meta
+    - Assets/Material/New Material.mat
+    - Assets/Material/New Material.mat.meta
+    - Assets/Material/NewLayer.terrainlayer
+    - Assets/Material/NewLayer.terrainlayer.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Abyss.unity
+    - Assets/Scenes/Abyss.unity.meta
+    - Assets/Scenes/Forest.unity
+    - Assets/Scenes/Forest.unity.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/MainMenu.unity.meta
+    - Assets/Scenes/Space.unity
+    - Assets/Scenes/Space.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Abyss.meta
+    - Assets/Scripts/Abyss/Character.cs
+    - Assets/Scripts/Abyss/Character.cs.meta
+    - Assets/Scripts/Forest.meta
+    - Assets/Scripts/Forest/CameraMove.cs
+    - Assets/Scripts/Forest/CameraMove.cs.meta
+    - Assets/Scripts/Forest/CameraMovement.cs
+    - Assets/Scripts/Forest/CameraMovement.cs.meta
+    - Assets/Scripts/Forest/CharacterMove.cs
+    - Assets/Scripts/Forest/CharacterMove.cs.meta
+    - Assets/Scripts/Forest/ExportTerrain.cs
+    - Assets/Scripts/Forest/ExportTerrain.cs.meta
+    - Assets/Scripts/MainMenu.meta
+    - Assets/Scripts/MainMenu/MenuScripts.cs
+    - Assets/Scripts/MainMenu/MenuScripts.cs.meta
+    - Assets/Scripts/MainMenu/SoundScripts.cs
+    - Assets/Scripts/MainMenu/SoundScripts.cs.meta
+    - Assets/Scripts/Space.meta
+    - Assets/Scripts/Space/CamRo.cs
+    - Assets/Scripts/Space/CamRo.cs.meta
+    - Assets/Scripts/Space/Cam_Track.cs
+    - Assets/Scripts/Space/Cam_Track.cs.meta
+    - Assets/Scripts/Space/CameraControl.cs
+    - Assets/Scripts/Space/CameraControl.cs.meta
+    - Assets/Scripts/Space/Movement.cs
+    - Assets/Scripts/Space/Movement.cs.meta
+    - Assets/Scripts/Space/New Terrain.asset
+    - Assets/Scripts/Space/New Terrain.asset.meta
+    - Assets/Scripts/Space/NewBehaviourScript.cs
+    - Assets/Scripts/Space/NewBehaviourScript.cs.meta
+    - Assets/Scripts/Space/Rotate.cs
+    - Assets/Scripts/Space/Rotate.cs.meta
+    - Assets/Sounds.meta
+    - "Assets/Sounds/\uC2EC\uD574.mp3"
+    - "Assets/Sounds/\uC2EC\uD574.mp3.meta"
+    - "Assets/Sounds/\uC6B0\uC8FC.mp3"
+    - "Assets/Sounds/\uC6B0\uC8FC.mp3.meta"
+    - "Assets/Sounds/\uCD08\uC6D0.mp3"
+    - "Assets/Sounds/\uCD08\uC6D0.mp3.meta"
+    - Assets/SpaceAssets.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(1).FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(1).FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(2).FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(2).FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(3).FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Attack(3).FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Dead.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Dead.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Get_Hit.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Get_Hit.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Idle.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Idle.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Shout.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Shout.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Walk.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Walk.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Walk_Mec.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Horror_Mutant@Walk_Mec.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Materials.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Materials/Horror_Mutant_diffuse.mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Animations/Materials/Horror_Mutant_diffuse.mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Horror_Mutant.controller
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Horror_Mutant.controller.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(1).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(1).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(2).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(2).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(3).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(3).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(4).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(4).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(5).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(5).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(6).mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Materials/Horror_Mutant_Albedo(6).mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh/Materials.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh/Materials/Horror_Mutant_diffuse.mat
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh/Materials/Horror_Mutant_diffuse.mat.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh/Mesh.FBX
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Mesh/Mesh.FBX.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(1).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(1).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(2).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(2).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(3).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(3).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(4).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(4).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(5).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(5).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(6).prefab
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Prefabs/Horror_Mutant(6).prefab.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Scene.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Scene/Demo_scene.unity
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Scene/Demo_scene.unity.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Scene/Demo_sceneSettings.lighting
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Scene/Demo_sceneSettings.lighting.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(1).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(1).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(2).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(2).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(3).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(3).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(4).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(4).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(5).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(5).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(6).tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(6).tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_normals.tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_normals.tga.meta
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_specular.tga
+    - Assets/SpaceAssets/Creature_Horror_Mutant/Textures/Horror_Mutant_specular.tga.meta
+    - Assets/SpaceAssets/FelineGargoyle.meta
+    - Assets/SpaceAssets/FelineGargoyle/Documentation.meta
+    - Assets/SpaceAssets/FelineGargoyle/Documentation/README.pdf
+    - Assets/SpaceAssets/FelineGargoyle/Documentation/README.pdf.meta
+    - Assets/SpaceAssets/FelineGargoyle/FBX.meta
+    - Assets/SpaceAssets/FelineGargoyle/FBX/FelineGargoyle.fbx
+    - Assets/SpaceAssets/FelineGargoyle/FBX/FelineGargoyle.fbx.meta
+    - Assets/SpaceAssets/FelineGargoyle/Materials.meta
+    - Assets/SpaceAssets/FelineGargoyle/Materials/PBS_FGARGOYLE.mat
+    - Assets/SpaceAssets/FelineGargoyle/Materials/PBS_FGARGOYLE.mat.meta
+    - Assets/SpaceAssets/FelineGargoyle/Prefabs.meta
+    - Assets/SpaceAssets/FelineGargoyle/Prefabs/FelineGargoyle.prefab
+    - Assets/SpaceAssets/FelineGargoyle/Prefabs/FelineGargoyle.prefab.meta
+    - Assets/SpaceAssets/FelineGargoyle/Scenes.meta
+    - Assets/SpaceAssets/FelineGargoyle/Scenes/testScene.unity
+    - Assets/SpaceAssets/FelineGargoyle/Scenes/testScene.unity.meta
+    - Assets/SpaceAssets/FelineGargoyle/Textures.meta
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-ALBEDO.tga
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-ALBEDO.tga.meta
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-AO.tga
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-AO.tga.meta
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-NORMAL.tif
+    - Assets/SpaceAssets/FelineGargoyle/Textures/FGARGOYLE-NORMAL.tif.meta
+    - Assets/SpaceAssets/FelineGargoyle/readme_first.txt
+    - Assets/SpaceAssets/FelineGargoyle/readme_first.txt.meta
+    - Assets/SpaceAssets/Gamer Squid.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Body Trim.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Body Trim/Gold.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Body Trim/Gold.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Body Trim/Steel.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Body Trim/Steel.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Gold.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Gold.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Shiny Black.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Shiny Black.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Steel Gun Metal.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Steel Gun Metal.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Steel Painted.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exhaust/Steel Painted.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Copper.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Copper.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Iron Sheild.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Iron Sheild.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Shiny Black.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Shiny Black.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Shny Red.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Shny Red.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Silver.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Silver.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Worn Red.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Exteria/Worn Red.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Lights.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Lights/Lights.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Lights/Lights.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Blue Hex.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Blue Hex.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Carbon Fiber.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Carbon Fiber.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Metal Mesh.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Metal Mesh.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Red Matte.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Vent/Red Matte.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Window.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Window/Window-Black.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Window/Window-Black.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Window/Window-Dark Blue.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Materials/Window/Window-Dark Blue.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/CruiseFighter.fbx
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/CruiseFighter.fbx.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Exhaust Outlet.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Exhaust Outlet.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Exteria.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Exteria.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Glowing.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Glowing.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Lights.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Lights.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Vent.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Vent.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Window.mat
+    - Assets/SpaceAssets/Gamer Squid/Assets/Models/Materials/Window.mat.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Copper).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Copper).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Iron Armor).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Iron Armor).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Old Red).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Old Red).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Red).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Red).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Silver).prefab
+    - Assets/SpaceAssets/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Silver).prefab.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Gold/CruiseFighter_Glowing_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Iron Pure/CruiseFighter_Glowing_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Body Trim/Steel/CruiseFighter_Glowing_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Gold/CruiseFighter-v2_Check
+      Point_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rough Blue Metal/CruiseFighter-v2_Check
+      Point_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Rusty Red/CruiseFighter-v2_Check
+      Point_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Checkpoint/Shiny Red/CruiseFighter-v2_Check
+      Point_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Gold/CruiseFighter_Exhaust
+      Outlet_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Shiny Black/CruiseFighter_Exhaust
+      Outlet_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Gun Metal/CruiseFighter_Exhaust
+      Outlet_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exhaust Outlet/Steel Painted/CruiseFighter_Exhaust
+      Outlet_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Copper/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Iron Shield/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Black/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Shiny Red/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Silver/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Exteria/Worn Red/CruiseFighter_Exteria_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Blue Hex/CruiseFighter_Vent_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Carbon Fiber/CruiseFighter_Vent_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Metal Mesh/CruiseFighter_Vent_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Vent/Red Matte/CruiseFighter_Vent_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_AO.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_AO.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_AlbedoTransparency.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_AlbedoTransparency.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_MetallicSmoothness.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_MetallicSmoothness.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_Normal.png
+    - Assets/SpaceAssets/Gamer Squid/Assets/Textures/Window/Dark Blue/CruiseFighter_Window_Normal.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Demo Terrain.asset
+    - Assets/SpaceAssets/Gamer Squid/Demo/Demo Terrain.asset.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Demo.unity
+    - Assets/SpaceAssets/Gamer Squid/Demo/Demo.unity.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/DemoSettings.lighting
+    - Assets/SpaceAssets/Gamer Squid/Demo/DemoSettings.lighting.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment/Textures.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment/Textures/RoadCityWorn001_COL_3K.png
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment/Textures/RoadCityWorn001_COL_3K.png.meta
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment/Textures/RoadCityWorn001_NRM_3K.png
+    - Assets/SpaceAssets/Gamer Squid/Demo/Environment/Textures/RoadCityWorn001_NRM_3K.png.meta
+    - Assets/SpaceAssets/K-014.png
+    - Assets/SpaceAssets/K-014.png.meta
+    - Assets/SpaceAssets/Materials.meta
+    - Assets/SpaceAssets/Materials/K-014.mat
+    - Assets/SpaceAssets/Materials/K-014.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free.meta
+    - Assets/SpaceAssets/Planet Earth Free/Demo.unity
+    - Assets/SpaceAssets/Planet Earth Free/Demo.unity.meta
+    - Assets/SpaceAssets/Planet Earth Free/DemoSettings.lighting
+    - Assets/SpaceAssets/Planet Earth Free/DemoSettings.lighting.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kMaterial.mat
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kMaterial.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kNormal.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kNormal.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kTexture.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth1kTexture.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kMaterial.mat
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kMaterial.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kNormal.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kNormal.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kTexture.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth2kTexture.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kMaterial.mat
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kMaterial.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kNormal.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kNormal.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kTexture.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/Earth4kTexture.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/PlanetGlowMaterial.mat
+    - Assets/SpaceAssets/Planet Earth Free/Materials/PlanetGlowMaterial.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/SkyboxMaterial.mat
+    - Assets/SpaceAssets/Planet Earth Free/Materials/SkyboxMaterial.mat.meta
+    - Assets/SpaceAssets/Planet Earth Free/Materials/StarsTexture.png
+    - Assets/SpaceAssets/Planet Earth Free/Materials/StarsTexture.png.meta
+    - Assets/SpaceAssets/Planet Earth Free/Models.meta
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet16128Tris.FBX
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet16128Tris.FBX.meta
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet3968Tris.FBX
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet3968Tris.FBX.meta
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet960Tris.FBX
+    - Assets/SpaceAssets/Planet Earth Free/Models/Planet960Tris.FBX.meta
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs.meta
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthHigh.prefab
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthHigh.prefab.meta
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthLow.prefab
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthLow.prefab.meta
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthMedium.prefab
+    - Assets/SpaceAssets/Planet Earth Free/Prefabs/EarthMedium.prefab.meta
+    - Assets/SpaceAssets/Planet Earth Free/SpinFree.cs
+    - Assets/SpaceAssets/Planet Earth Free/SpinFree.cs.meta
+    - Assets/SpaceAssets/Satellite Dish.meta
+    - Assets/SpaceAssets/Satellite Dish/Materials.meta
+    - Assets/SpaceAssets/Satellite Dish/Materials/Satellite Dish-Satellite_mat.mat
+    - Assets/SpaceAssets/Satellite Dish/Materials/Satellite Dish-Satellite_mat.mat.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbm.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbm/Satellit_NM.tif
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbm/Satellit_NM.tif.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbm/Satellite_TXTR.tif
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbm/Satellite_TXTR.tif.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbx
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish.fbx.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish_Textures.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish_Textures/Satellit_NM.tif
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish_Textures/Satellit_NM.tif.meta
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish_Textures/Satellite_TXTR.tif
+    - Assets/SpaceAssets/Satellite Dish/Satellite Dish_Textures/Satellite_TXTR.tif.meta
+    - Assets/SpaceAssets/Satellite Dish/info.txt
+    - Assets/SpaceAssets/Satellite Dish/info.txt.meta
+    - Assets/SpaceAssets/Space_Objects.meta
+    - Assets/SpaceAssets/Space_Objects/Materials.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Base.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Base.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Burner.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Burner.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Burner_O.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Burner_O.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Damaged_turbine.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Damaged_turbine.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_Outer.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_Outer.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_wings.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_wings.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_wings_i.mat
+    - Assets/SpaceAssets/Space_Objects/Materials/Turbine_Ultra_wings_i.mat.meta
+    - Assets/SpaceAssets/Space_Objects/Models.meta
+    - Assets/SpaceAssets/Space_Objects/Models/Base.fbx
+    - Assets/SpaceAssets/Space_Objects/Models/Base.fbx.meta
+    - Assets/SpaceAssets/Space_Objects/Models/Damaged_turbine.fbx
+    - Assets/SpaceAssets/Space_Objects/Models/Damaged_turbine.fbx.meta
+    - Assets/SpaceAssets/Space_Objects/Models/Space_object.fbx
+    - Assets/SpaceAssets/Space_Objects/Models/Space_object.fbx.meta
+    - Assets/SpaceAssets/Space_Objects/Models/Space_object_O.fbx
+    - Assets/SpaceAssets/Space_Objects/Models/Space_object_O.fbx.meta
+    - Assets/SpaceAssets/Space_Objects/Models/Ultimate.fbx
+    - Assets/SpaceAssets/Space_Objects/Models/Ultimate.fbx.meta
+    - Assets/SpaceAssets/Space_Objects/Scenes.meta
+    - Assets/SpaceAssets/Space_Objects/Scenes/Space_Objects.unity
+    - Assets/SpaceAssets/Space_Objects/Scenes/Space_Objects.unity.meta
+    - Assets/SpaceAssets/Space_Objects/Scenes/Space_ObjectsSettings.lighting
+    - Assets/SpaceAssets/Space_Objects/Scenes/Space_ObjectsSettings.lighting.meta
+    - Assets/SpaceAssets/Space_Objects/Textures.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/Damaged_turbine.png
+    - Assets/SpaceAssets/Space_Objects/Textures/Damaged_turbine.png.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/Turbine_inner.png
+    - Assets/SpaceAssets/Space_Objects/Textures/Turbine_inner.png.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/Turbine_outer.png
+    - Assets/SpaceAssets/Space_Objects/Textures/Turbine_outer.png.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/Wings.png
+    - Assets/SpaceAssets/Space_Objects/Textures/Wings.png.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/Wings_I.png
+    - Assets/SpaceAssets/Space_Objects/Textures/Wings_I.png.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/circuit_uv_1.jpg
+    - Assets/SpaceAssets/Space_Objects/Textures/circuit_uv_1.jpg.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/circuit_uv_normal.jpg
+    - Assets/SpaceAssets/Space_Objects/Textures/circuit_uv_normal.jpg.meta
+    - Assets/SpaceAssets/Space_Objects/Textures/ground_1.png
+    - Assets/SpaceAssets/Space_Objects/Textures/ground_1.png.meta
+    - Assets/SpaceAssets/Standard Assets.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/DawnDusk Skybox.mat
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/DawnDusk Skybox.mat.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif.meta
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif
+    - Assets/SpaceAssets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif.meta
+    - Assets/SpaceAssets/Starfield Skybox.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/DemoScene.unity
+    - Assets/SpaceAssets/Starfield Skybox/Demo/DemoScene.unity.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/DemoSceneSettings.lighting
+    - Assets/SpaceAssets/Starfield Skybox/Demo/DemoSceneSettings.lighting.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Materials.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Materials/Down_Tex.mat
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Materials/Down_Tex.mat.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Materials/Left_Tex.mat
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Materials/Left_Tex.mat.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Script.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Script/LookCamera.cs
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Script/LookCamera.cs.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Back_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Back_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Down_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Down_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Front_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Front_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Left_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Left_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Right_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Right_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Up_Tex.png
+    - Assets/SpaceAssets/Starfield Skybox/Demo/Textures/Up_Tex.png.meta
+    - Assets/SpaceAssets/Starfield Skybox/New Material 1.mat
+    - Assets/SpaceAssets/Starfield Skybox/New Material 1.mat.meta
+    - Assets/SpaceAssets/Starfield Skybox/New Material.mat
+    - Assets/SpaceAssets/Starfield Skybox/New Material.mat.meta
+    - Assets/SpaceAssets/Starfield Skybox/Skybox.mat
+    - Assets/SpaceAssets/Starfield Skybox/Skybox.mat.meta
+    - Assets/SpaceAssets/Titanium-Fighter.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/naveText.mat
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/naveText.mat.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/nnave.mat
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/nnave.mat.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/rocketText.mat
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/Materials/rocketText.mat.meta
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/titaniun-fighter.fbx
+    - Assets/SpaceAssets/Titanium-Fighter/FBX/titaniun-fighter.fbx.meta
+    - Assets/SpaceAssets/Titanium-Fighter/PSD FILE.meta
+    - Assets/SpaceAssets/Titanium-Fighter/PSD FILE/nnavePSD.psd
+    - Assets/SpaceAssets/Titanium-Fighter/PSD FILE/nnavePSD.psd.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Prefab.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Prefab/titaniun-fighter.prefab
+    - Assets/SpaceAssets/Titanium-Fighter/Prefab/titaniun-fighter.prefab.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/naveText.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/naveText.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/nnave.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/nnave.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketEspecular.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketEspecular.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketNormalMap.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketNormalMap.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketText.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/rocketText.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_normalMap.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_normalMap.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_normalMapHard.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_normalMapHard.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_specular.png
+    - Assets/SpaceAssets/Titanium-Fighter/Texturas/t-fighter_specular.png.meta
+    - Assets/SpaceAssets/Titanium-Fighter/t-fighterDemo.unity
+    - Assets/SpaceAssets/Titanium-Fighter/t-fighterDemo.unity.meta
+    - Assets/SpaceAssets/Titanium-Fighter/t-fighterDemoSettings.lighting
+    - Assets/SpaceAssets/Titanium-Fighter/t-fighterDemoSettings.lighting.meta
+    - Assets/SpaceAssets/Tree_Textures.meta
+    - Assets/SpaceAssets/Tree_Textures/diffuse.png
+    - Assets/SpaceAssets/Tree_Textures/diffuse.png.meta
+    - Assets/SpaceAssets/Tree_Textures/normal_specular.png
+    - Assets/SpaceAssets/Tree_Textures/normal_specular.png.meta
+    - Assets/SpaceAssets/Tree_Textures/shadow.png
+    - Assets/SpaceAssets/Tree_Textures/shadow.png.meta
+    - Assets/SpaceAssets/Tree_Textures/translucency_gloss.png
+    - Assets/SpaceAssets/Tree_Textures/translucency_gloss.png.meta
+    - Assets/SpaceAssets/_TerrainAutoUpgrade.meta
+    - Assets/SpaceAssets/_TerrainAutoUpgrade/layer_RoadCityWorn001_COL_3KRoadCityWorn001_NRM_3K3d3aba195e4d26ee.terrainlayer
+    - Assets/SpaceAssets/_TerrainAutoUpgrade/layer_RoadCityWorn001_COL_3KRoadCityWorn001_NRM_3K3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/SpaceAssets/space_warrior_jet.meta
+    - Assets/SpaceAssets/space_warrior_jet/Materials.meta
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_blue.mat
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_blue.mat.meta
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_green.mat
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_green.mat.meta
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_red.mat
+    - Assets/SpaceAssets/space_warrior_jet/Materials/jet_red.mat.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet.FBX
+    - Assets/SpaceAssets/space_warrior_jet/jet.FBX.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet_blue.tga
+    - Assets/SpaceAssets/space_warrior_jet/jet_blue.tga.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet_green.tga
+    - Assets/SpaceAssets/space_warrior_jet/jet_green.tga.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet_lights.tga
+    - Assets/SpaceAssets/space_warrior_jet/jet_lights.tga.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet_normal.tga
+    - Assets/SpaceAssets/space_warrior_jet/jet_normal.tga.meta
+    - Assets/SpaceAssets/space_warrior_jet/jet_red.tga
+    - Assets/SpaceAssets/space_warrior_jet/jet_red.tga.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Texture.meta
+    - Assets/Texture/244eaef7141087f87f5bec2ca3c5a41d.jpg
+    - Assets/Texture/244eaef7141087f87f5bec2ca3c5a41d.jpg.meta
+    - Assets/Texture/New Terrain Layer 1.terrainlayer
+    - Assets/Texture/New Terrain Layer 1.terrainlayer.meta
+    - Assets/Texture/New Terrain Layer.terrainlayer
+    - Assets/Texture/New Terrain Layer.terrainlayer.meta
+    - "Assets/Texture/\uC2EC\uD574.jpg"
+    - "Assets/Texture/\uC2EC\uD574.jpg.meta"
+    - "Assets/Texture/\uC554\uBCBD.jpg"
+    - "Assets/Texture/\uC554\uBCBD.jpg.meta"
+    - "Assets/Texture/\uC81C\uBAA9 \uC5C6\uC74C.png"
+    - "Assets/Texture/\uC81C\uBAA9 \uC5C6\uC74C.png.meta"
+    - Assets/Water.asset
+    - Assets/Water.asset.meta
+    - Assets/move.cs
+    - Assets/move.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

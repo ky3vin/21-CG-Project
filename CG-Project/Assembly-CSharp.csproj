@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{19B284D5-E9FA-797F-CB1D-23BAFD9A6845}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -24,7 +24,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_22;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_22;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -47,26 +47,199 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Space\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scripts\Forest\CameraMovement.cs" />
-     <Compile Include="Assets\Scripts\Space\Rotate.cs" />
-     <Compile Include="Assets\Scripts\Space\Movement.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\SoundScripts.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\SpaceAssets\Cam_Track.cs" />
+     <Compile Include="Assets\Scripts\Abyss\CameraController.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Scripts\Abyss\LoadCharacter.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\Movement.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\SpaceAssets\Planet Earth Free\SpinFree.cs" />
-     <Compile Include="Assets\Scripts\Forest\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\Space\CamRo.cs" />
-     <Compile Include="Assets\Scripts\Space\Cam_Track.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\GameEnding_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Low Poly Fruits\resources\fruits_tester.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\CamRo.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\Cam_Track.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\RandomDisplay_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
      <Compile Include="Assets\move.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\Scripts\Abyss\Character.cs" />
-     <Compile Include="Assets\Scripts\Forest\ExportTerrain.cs" />
-     <Compile Include="Assets\Scripts\Space\CameraControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\ExportTerrain.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\CameraController_Forest.cs" />
+     <Compile Include="Assets\SpaceAssets\Movement_sol.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\RandomSpawn_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\SpaceAssets\Movement.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Scripts\SpaceScripts\CameraControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\SpaceAssets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\DisplayScore_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\StrawberryEffects_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\PlayerController_Forest.cs" />
      <Compile Include="Assets\ForestAssets\Store\HolyShift\Scripts\CheckForStandardAssets.cs" />
-     <Compile Include="Assets\Scripts\Forest\CharacterMove.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MenuScripts.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\ForestAssets\Store\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\SpaceAssets\CameraControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\SpaceAssets\Rotate.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\EnemyController_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\Scripts\ForestScripts\CharacterMove_Forest.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\Scripts\CharacterMenu\CharacterSelect.cs" />
+     <Compile Include="Assets\ForestAssets\Store\Standard Assets\Utility\FPSCounter.cs" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\SpaceAssets\Satellite Dish\info.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\ForestAssets\Store\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\ForestAssets\Store\HolyShift\Shaders\FXWaterLowpoly.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\ForestAssets\Store\HolyShift\readme.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\ForestAssets\Store\HolyShift\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\SpaceAssets\FelineGargoyle\readme_first.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\AbyssAssets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\ForestAssets\Store\Standard Assets\Fonts\OpenSans\License!.txt" />
  <Reference Include="UnityEngine">
  <HintPath>E:/YevinKwon/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -290,7 +463,7 @@
  <HintPath>E:/YevinKwon/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>E:/YevinKwon/Unity/Hub/Editor/2020.3.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -638,34 +811,34 @@
  <HintPath>E:/YevinKwon/Unity/Hub/Editor/2020.3.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/yevinKwon/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/yevinKwon/Desktop/21-CG-Project-main/CG-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
